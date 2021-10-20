@@ -1,0 +1,19 @@
+{
+  "description": "Test Deskripsi",  
+  "image": "https://nft-clothbitc.netlify.app/assets/image/cbitc.png", 
+  "name": "Test Name",
+  "animation_url": "https://nft-clothbitc.netlify.app/assets/video/clothbitcnft.mp4",
+  "attributes": [ {
+      "trait_type": "Brand", 
+      "value": "Test Brand"
+    }, 
+    {
+      "trait_type": "Type", 
+      "value": "Test T-Shirt"
+    }, 
+    {
+      "trait_type": "Style", 
+      "value": " Test Streetwear"
+    }
+     ], 
+}
