@@ -13,12 +13,8 @@
 
 <!-- Slide Show -->
 <section>
-  <img class="mySlides" src="1.png"
-  style="width:100%">
-  <img class="mySlides" src="2.png"
-  style="width:100%">
-  <img class="mySlides" src="3.png"
-  style="width:100%">
+  <video class="mySlides" style="width:100%" loop="true" autoplay="autoplay" controls muted src="assets/video/clothbitcnft.mp4" type="video/mp4">
+  </video>
 </section>
 
 <!-- Band Description -->
@@ -52,7 +48,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
+  setTimeout(carousel, 6000);
 }
 </script>
 
